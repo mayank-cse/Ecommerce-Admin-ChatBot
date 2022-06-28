@@ -1,0 +1,30 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to LG Admin ChatBot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": true,
+      "text": "This is a sample bot which gives the admin, access to ADD|UPDATE|REMOVE|VIEW the products(category wise) that the company has launched in the market.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ]
+
+}
